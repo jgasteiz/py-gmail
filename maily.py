@@ -28,7 +28,7 @@ def main():
     -m, --message : string, the message you want to send
         Must
     -s, --subject : string, message subject
-        Must
+        Optional
     -d, --destination : string, destination address
         Must
 
@@ -46,7 +46,8 @@ def main():
                         required=True)
     parser.add_argument('-s', '--subject',
                         help='Email subject',
-                        required=True)
+                        required=False,
+                        default='Sent from py-gmail')
     parser.add_argument('-d', '--destination',
                         help='Destination email',
                         required=True)
