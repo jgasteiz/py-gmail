@@ -4,10 +4,7 @@ import sys
 import json
 import smtplib
 import argparse
-import mimetypes
-from email import encoders
 from optparse import OptionParser
-from email.message import Message
 from email.mime.text import MIMEText
 
 __author__ = 'Javi Manzano | https://github.com/jgasteiz'
