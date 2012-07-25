@@ -1,6 +1,8 @@
 # py-gmail
 
-A simple python script that I use to send quick emails from a gmail account with python (it works with google apps too). You have to specify your credentials in settings.json and place it in a secure place.
+A simple python script that I use to send quick emails from a gmail account with python (it works with google apps too). 
+
+You must create a my-settings.json file, copy the content of default-settings.json and fill it with your gmail (or gapps) user and password.
 
 The script takes three arguments:
 

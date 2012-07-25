@@ -57,7 +57,7 @@ def main():
     destination = ARGS['destination']
 
     # You should put this settings file in a secure place
-    settings_file = open('settings.json')
+    settings_file = open('my-settings.json')
     settings = json.load(settings_file)
     origin = settings['origin']
     password = settings['password']
